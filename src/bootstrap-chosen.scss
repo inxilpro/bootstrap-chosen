@@ -6,7 +6,8 @@
 //
 // Submit bugfixes to: http://github.com/alxlit/bootstrap-chosen
 //
-// This file is meant to be included with your existing bootstrap.scss file
 
-@import "src/variables.scss";
-@import "src/styles.scss";
+@import "./../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "variables.scss";
+@import "./../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+@import "styles.scss";

@@ -2,6 +2,9 @@
   "name": "bootstrap-chosen",
   "version": "1.0.0",
   "description": "An alternate stylesheet for Chosen that integrates with Bootstrap. ",
+  "scripts": {
+    "build": "lessc --source-map src/bootstrap-chosen.less bootstrap-chosen.css"
+  },
   "repository": {
     "type": "git",
     "url": "alxlit/bootstrap-chosen"
@@ -12,5 +15,9 @@
     "bootstrap",
     "chosen",
     "bootstrap-chosen"
-  ]
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7"
+  }
 }

@@ -12,11 +12,16 @@
   ],
   "license": "MIT",
   "main": [
-    "bootstrap-chosen-variables.less", 
-    "bootstrap-chosen-variables.scss",
+    "src/bootstrap-chosen.less",
+    "src/variables.less",
+    "src/styles.less", 
+    "src/bootstrap-chosen.scss",
+    "src/variables.scss",
+    "src/styles.scss",
     "bootstrap-chosen.less",
     "bootstrap-chosen.scss",
     "bootstrap-chosen.css",
+    "bootstrap-chosen.css.map",
     "chosen-sprite.png",
     "chosen-sprite@2x.png"
   ],
